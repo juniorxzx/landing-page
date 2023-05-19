@@ -14,6 +14,18 @@ const Menu = () => {
       <div className="hidden md:flex gap-3 ">
         <ul className="flex gap-3 font-semibold items-center dark:text-white text-xl">
           <li className="hover:text-purple-300 cursor-pointer">
+            <Link
+              to="about"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Sobre nós
+            </Link>
+          </li>
+          <li className="hover:text-purple-300 cursor-pointer">
             {" "}
             <Link
               to="services"
@@ -41,7 +53,7 @@ const Menu = () => {
           </li>
           <li className="hover:text-purple-300 cursor-pointer">
             <Link
-              to="testimonial"
+              to="testimonials"
               activeClass="active"
               spy={true}
               smooth={true}
@@ -51,12 +63,23 @@ const Menu = () => {
               Depoimentos
             </Link>
           </li>
+          <div className="hidden md:block text-white cursor-pointer px-5 py-2 bg-purple-500 rounded-3xl shadow-xl hover:bg-gradient-to-l from-purple-500 to-pink-300">
+              <Link
+                to="contact"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Entre em contato
+              </Link>
+            </div>
 
           {/* <li className="cursor-pointer">
             <DarkMode />
           </li> */}
         </ul>
-    
       </div>
       <div className="flex md:hidden">
         <div className="" onClick={toggleOpen}>
@@ -101,7 +124,7 @@ const Menu = () => {
                   offset={-70}
                   duration={500}
                 >
-                  Services
+                  Serviços
                 </Link>
               </li>
               <li className="hover:text-purple-300 cursor-pointer">

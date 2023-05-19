@@ -39,18 +39,7 @@ const Navbar = () => {
           >
             <Logo />
             <Menu />
-            <div className="hidden md:block cursor-pointer p-2 bg-purple-500 rounded-full">
-              <Link
-                to="contact"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Entre em contato
-              </Link>
-            </div>
+        
           </div>
         </Container>
       </div>

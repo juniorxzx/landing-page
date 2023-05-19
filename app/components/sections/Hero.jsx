@@ -40,7 +40,9 @@ const Hero = () => {
           }}
           className="relative gap-3 text-center"
         >
-          <h1 className="text-6xl font-semibold">Lunna</h1>
+          <h1 className="text-6xl text-gray-500 ">
+            <span className="font-semibold text-black">lu</span>nna
+          </h1>
           <span className="text-2xl font-semibold ">
             Deixe a Lunna iluminar o caminho da sua marca com estratégias
             estelares.
@@ -60,7 +62,6 @@ const Hero = () => {
           </div>
         </motion.div>
       </Container>
-
     </section>
   );
 };

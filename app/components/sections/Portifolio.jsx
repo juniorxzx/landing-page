@@ -17,7 +17,7 @@ const Portifolio = () => {
   ];
   return (
     <section
-      id="services"
+      id="portifolio"
       className="md:h-[100%] relative flex justify-center items-center"
     >
       <Container>

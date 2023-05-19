@@ -21,7 +21,7 @@ const Brandings = () => {
           </h1>
           <h3>Estas marcas já colaboram conosco </h3>
         </div>
-        <div className="mt-4 bock md:flex justify-between bg-slate-300 bg-opacity-80 p-4 rounded-lg shadow-md">
+        <div className="mt-4 flex-col justify-center items-center flex md:flex-row md:justify-between bg-slate-300 bg-opacity-80 p-4 rounded-lg shadow-md">
           <img
             src="/images/Brandings/vitta.png"
             alt="vitta"

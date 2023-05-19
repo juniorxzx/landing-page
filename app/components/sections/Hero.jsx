@@ -5,7 +5,10 @@ import Container from "../Container";
 
 const Hero = () => {
   return (
-    <section id="home" className="h-screen flex justify-center items-center relative">
+    <section
+      id="home"
+      className="h-screen flex justify-center items-center relative"
+    >
       <Container>
         <img
           src="/images/Hero/vector.svg"
@@ -57,6 +60,7 @@ const Hero = () => {
           </div>
         </motion.div>
       </Container>
+
     </section>
   );
 };

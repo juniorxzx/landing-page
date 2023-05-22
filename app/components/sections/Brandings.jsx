@@ -5,7 +5,7 @@ const Brandings = () => {
   return (
     <section
       id="home"
-      className="md:h-[100%] flex justify-center items-center relative mt-4"
+      className="md:h-[100%] flex justify-center items-center relative mt-4 bg-[url('/images/Brandings/vector5.svg')] bg-no-repeat bg-left-bottom"
     >
       <Container>
         <img
@@ -40,11 +40,7 @@ const Brandings = () => {
           />
         </div>
 
-        <img
-          src="/images/Brandings/vector5.svg"
-          alt="star"
-          className="absolute -z-30 left-0 bottom-0"
-        />
+      
       </Container>
     </section>
   );

@@ -6,6 +6,8 @@ import Services from "./components/sections/Services";
 import Brandings from "./components/sections/Brandings";
 import Portifolio from "./components/sections/Portifolio";
 import Testimonials from "./components/sections/Testimonials";
+import Contact from "./components/sections/Contact";
+import Footer from "./components/footer/Footer";
 export default function Home() {
   return (
     <>
@@ -15,6 +17,8 @@ export default function Home() {
       <Brandings/>
       <Portifolio/>
       <Testimonials/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

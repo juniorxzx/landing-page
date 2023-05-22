@@ -25,11 +25,11 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="md:h-[100%] flex justify-center items-center relative"
+      className="md:h-[100%]  flex justify-center items-center relative"
     >
       <Container>
         <img src="/images/Hero/stars.svg" alt="star" className="absolute top-[10%] left-[10%] -z-30"/>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-20 h-screen">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-20 h-[100%]">
           <div className="flex items-center justify-center">
             <h1 className="text-[30px] md:text-[50px] text-purple-500">
               Pessoas que escolheram a Lunna, deixaram um pouco sobre o que
@@ -37,7 +37,7 @@ const Testimonials = () => {
             </h1>
           </div>
           <div className="relative h-full place-items-center">
-            <Card className="shadow-md p-4 rounded-xl h-[150px] md:absolute  top-[10%] left-[0%]">
+            <Card className="shadow-md p-4 rounded-xl h-[150px] min-w-[200px] ">
               <div className="flex gap-2 items-center my-4">
                 <img
                   src="https://source.unsplash.com/random/?girl"
@@ -48,10 +48,10 @@ const Testimonials = () => {
               </div>
               <span>Eu amei trabalhar com essa empresa, aprendi muito!</span>
             </Card>
-            <Card className="shadow-md p-4 h-[150px] rounded-xl md:absolute top-[40%] bottom-[30%] left-[25%]">
+            <Card className="shadow-md p-4 h-[150px] min-w-[200px] rounded-xl">
               <div className="flex gap-2 items-center my-4">
                 <img
-                  src="https://source.unsplash.com/random/?girl"
+                  src="https://source.unsplash.com/random/?man"
                   alt="Miriam"
                   className="w-8 h-8 rounded-full"
                 />
@@ -59,10 +59,10 @@ const Testimonials = () => {
               </div>
               <span>Como dono, não posso falar mal né 🏳️‍🌈🥰🍻🤪💅</span>
             </Card>
-            <Card className="shadow-md p-4 rounded-xl h-[150px] md:absolute  bottom-[10%] left-[0%]">
+            <Card className="shadow-md p-4 rounded-xl h-[150px] min-w-[200px] ">
               <div className="flex gap-2 items-center my-4">
                 <img
-                  src="https://source.unsplash.com/random/?girl"
+                  src="https://source.unsplash.com/random/?boy"
                   alt="Miriam"
                   className="w-8 h-8 rounded-full"
                 />
